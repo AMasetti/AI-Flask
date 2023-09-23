@@ -34,3 +34,4 @@ def get_latest_message():
         return jsonify({"message": latest_message})
     else:
         return jsonify({"message": "No messages available"})
+
